@@ -44,7 +44,7 @@
             <li><a href="<?php echo base_url(); ?>churchdirectory">Church Directory</a></li>
             <li><a href="<?php echo base_url(); ?>events">Events</a></li>
             <li><a href="<?php echo base_url(); ?>announcements">Announcements</a></li>
-            <li><a href="<?php echo base_url(); ?>testimonials">Testimonials</a></li>
+            <li><a href="<?php echo base_url(); ?>testimonials">Testimonies</a></li>
             <li><a href="<?php echo base_url(); ?>prayer_request">Prayer Request</a></li>
             <li><a>Who We Are</a>
               <ul>
@@ -57,7 +57,7 @@
                 <li><a href="<?php  echo base_url(); ?>whatwebelieve">What We Believe</a></li>
               </ul>
             </li>
-            <li><a href="<?php  echo base_url(); ?>contacts">Contact</a></li>
+            <li><a href="<?php  echo base_url(); ?>contacts">Contact Us</a></li>
           </ul>
         </div>
       </nav>

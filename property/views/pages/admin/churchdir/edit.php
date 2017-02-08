@@ -7,6 +7,13 @@ $churchname = array(
 	'value'    => $churchInfo->church_Name
 );
 
+$googleapimap = array(
+	'name'	   => 'googleapimap',
+	'id'	   => 'googleapimap',
+	'style'    => 'padding: 6px; width:280px;',
+	'value'    => $churchInfo->googleMapLocation
+);
+
 $schedule = array(
 	'name'	    => 'schedule',
 	'id'	    => 'schedule',
@@ -238,6 +245,14 @@ $address = array(
            </td>
 		</tr>
 		
+		<tr>
+			<th valign="top"><?php echo "Church Google Map"; ?></th>
+			<td><?php echo form_input($googleapimap); ?></td>
+			<td>
+            <span class="markcolor"><?php echo ucwords(form_error('googleapimap')); ?></span>
+           </td>
+		</tr>
+
         <tr>
             <th>&nbsp;</th>
             <td valign="top">

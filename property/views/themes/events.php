@@ -10,22 +10,10 @@
         <header class="section-top-padding background-dark">
           <div class="line">        
             <h1 class="text-white margin-top-bottom-20 text-size-30 text-line-height-1">Events</h1>
-<!--             <p class="margin-bottom-0 text-size-16">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.<br>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p> -->
+
           </div>  
         </header>
         <section class="section-small-padding background-white">
-
-<!--           <div class="line">
-            <h2 class="text-size-40 margin-bottom-30"></h2>
-            <hr class="break-small background-primary margin-bottom-30">
-            <p class="margin-bottom-40">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-              Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros 
-              et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-            </p>
-          </div>    -->
 
           <div class="line">
             <div class="margin">

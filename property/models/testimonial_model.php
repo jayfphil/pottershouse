@@ -64,9 +64,9 @@ class Testimonial_Model extends Model
 	}	
 
 	function getLastChurch($cId){
-		$result = $this->db->query("SELECT g.`pastorswife`,a.`schedule`,g.`emails`,g.`contacts`,g.`photo` AS 'PastorPhoto',a.`picture` AS 'ChurchPhoto',a.`address`, a.`church_Name`, c.`regDesc` AS `Region`,d.`citymunDesc` AS `City`,e.`brgyDesc` AS `Barangay`,f.`provDesc` AS `Province`,CONCAT(g.`firstName`,' ',g.`lastName`) AS 'Pastor' FROM `churches` a left join `users` b ON b.`id`=a.`created_By` left join `ph_region` c ON c.`id`=a.`region_Id` left join `ph_citymun` d ON d.`id`=a.`city_Id` left join `ph_brgy` e ON e.`id`=a.`brgy_Id` left join `ph_province` f ON f.`id`=a.`province_Id` left join `pastors` g ON g.`id`=a.`pastor_Id` left join `users` h ON h.`id`=a.`modified_By` WHERE a.`church_Id`=$cId ")->result();
+		$result = $this->db->query("SELECT a.`googleMapLocation`,g.`pastorswife`,a.`schedule`,g.`emails`,g.`contacts`,g.`photo` AS 'PastorPhoto',a.`picture` AS 'ChurchPhoto',a.`address`, a.`church_Name`, c.`regDesc` AS `Region`,d.`citymunDesc` AS `City`,e.`brgyDesc` AS `Barangay`,f.`provDesc` AS `Province`,CONCAT(g.`firstName`,' ',g.`lastName`) AS 'Pastor' FROM `churches` a left join `users` b ON b.`id`=a.`created_By` left join `ph_region` c ON c.`id`=a.`region_Id` left join `ph_citymun` d ON d.`id`=a.`city_Id` left join `ph_brgy` e ON e.`id`=a.`brgy_Id` left join `ph_province` f ON f.`id`=a.`province_Id` left join `pastors` g ON g.`id`=a.`pastor_Id` left join `users` h ON h.`id`=a.`modified_By` WHERE a.`church_Id`=$cId ")->result();
 		return $result;
-	}	
+	}		
 	
 	// function getBarangays(){
 	// 	$result = $this->db->query("select id,brgyDesc from ph_brgy order by brgyDesc ASC")->result();

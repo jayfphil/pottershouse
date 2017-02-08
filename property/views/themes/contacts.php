@@ -23,8 +23,8 @@
                   </div>
                 <div class="margin-left-70 margin-s-left-0 margin-bottom">
                   <h3 class="margin-bottom-0">Church Address</h3>
-                  <p>Mayon Street<br>
-                     Boni Ave, Mandaluyong, Metro Manila
+                  <p>29 Mayon Street<br>
+                     Barangay Malamig, Mandaluyong, City
                   </p>               
                 </div>
                 </div>
@@ -49,7 +49,7 @@
                   </div>
                   <div class="margin-left-70 margin-s-left-0">
                     <h3 class="margin-bottom-0">Phone Numbers</h3>
-                    <p><span class="text-primary">Office: (02) 401 6487</span><!-- <br>
+                    <p><span class="text-primary">Office: (+63-2) 654-1782</span><!-- <br>
                        Office: 0450 5896 625 16<br>
                        Office 2: 0798 6546 465 15 -->
                     </p>             
@@ -64,7 +64,7 @@
               <!-- Contact Form -->
 
               <div class="s-12 m-12 l-4">
-                <h2 class="margin-bottom-10">Schedule Services</h2>
+                <h2 class="margin-bottom-10">Schedule of Services</h2>
                 <div class="s-6">
                   <p class="text-size-16">
                   Wednesday Evening<br>
@@ -76,11 +76,11 @@
                 </div>
                 <div class="s-6">
                   <p class="text-size-16 text-strong">
-                  07:00 PM<br>
-                  06:00 PM<br>
+                  07:30 PM<br>
+                  07:30 PM<br>
                   09:00 AM<br>
                   10:00 AM<br>
-                  07:00 PM
+                  06:30 PM
                   </p>
                 </div>
               </div>

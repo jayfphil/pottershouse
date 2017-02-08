@@ -74,7 +74,6 @@
                     <a href="<?php echo base_url().'admin/announcements'; ?>"><img src="<?php echo base_url().'public/images/task/property_file.png'; ?>" alt="Announcements" title="Announcements" /></a>
                      </td>
 					<td align="center" width="40">&nbsp;</td>
-
                     <!--
 					<td align="center" width="40">&nbsp;</td>
 					<td align="center" width="130" onmouseover="style.backgroundColor='#CCCCCC';" onmouseout="style.backgroundColor='#FFFFFF'">
@@ -90,7 +89,6 @@
 					<td align="center" width="40">&nbsp;</td>
 					<td align="center"><a href="<?php echo base_url().'admin/announcements'; ?>">Announcements</a> </td>
 					<td align="center" width="40">&nbsp;</td>
-					
 					<!--<td align="center" width="40">&nbsp;</td>
 					<td align="center"><a href="<?php echo base_url().'admin/report'; ?>">Report</a> </td>-->
 				</tr>
@@ -99,25 +97,20 @@
 					<td align="center" width="130"  onmouseover="style.backgroundColor='#CCCCCC';" onmouseout="style.backgroundColor='#FFFFFF'">
                     <a href="<?php echo base_url().'admin/user'; ?>"><img src="<?php echo base_url().'public/images/task/user.png'; ?>" alt="users" title="users" /></a>
                     </td>
-
 					<td align="center" width="40">&nbsp;</td>
 
 					<td align="center" width="130" onmouseover="style.backgroundColor='#CCCCCC';" onmouseout="style.backgroundColor='#FFFFFF'">
                     <a href="<?php echo base_url().'admin/churchdir'; ?>"><img src="<?php echo base_url().'public/images/task/report.png'; ?>" alt="Church Directory" title="Church Directory" /></a>
                     </td>
-
-                    <td align="center" width="40">&nbsp;</td>
-
+					<td align="center" width="40">&nbsp;</td>
 					<td align="center" width="130" onmouseover="style.backgroundColor='#CCCCCC';" onmouseout="style.backgroundColor='#FFFFFF'">
                     <a href="<?php echo base_url().'admin/pastors'; ?>"><img src="<?php echo base_url().'public/images/task/pastor.png'; ?>" alt="Pastors" title="Pastors" /></a>
                     </td>
-
 					<td align="center" width="40">&nbsp;</td>
-
 					<td align="center" width="130" onmouseover="style.backgroundColor='#CCCCCC';" onmouseout="style.backgroundColor='#FFFFFF'">
                     <a href="<?php echo base_url().'admin/prayer_request'; ?>"><img src="<?php echo base_url().'public/images/task/prayer.png'; ?>" alt="Prayer Request" title="Prayer Request" /></a>
                     </td>
-
+                    <td align="center" width="40">&nbsp;</td>
 				</tr>
 				<tr>
 					<td align="center"><a href="<?php echo base_url().'admin/user'; ?>">Users</a> </td>
@@ -127,7 +120,6 @@
 					<td align="center"><a href="<?php echo base_url().'admin/pastors'; ?>">Pastors</a> </td>
 					<td align="center" width="40">&nbsp;</td>
 					<td align="center"><a href="<?php echo base_url().'admin/prayer_request'; ?>">Prayer Request</a> </td>
-					<td align="center" width="40">&nbsp;</td>
 				</tr>
 				</table> 
 			<!--  end table-content  -->

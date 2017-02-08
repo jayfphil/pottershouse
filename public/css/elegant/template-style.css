@@ -2160,3 +2160,8 @@ iframe {
   -ms-transform:rotate(20deg);*/
   filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
 }
+
+.staffname {
+	font-size: 18px;
+	color:#002633 !important;	
+}

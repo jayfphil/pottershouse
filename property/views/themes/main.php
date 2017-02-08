@@ -7,10 +7,37 @@
     <main role="main">    
       <!-- Main Header -->
       <header>
-        <div class="carousel-default owl-carousel carousel-main carousel-nav-white background-dark text-center">
+        <div class="carousel-default owl-carousel carousel-main carousel-nav-white background-dark text-center full-width">
           <div class="item">
             <div class="s-12">
-              <img src="<?php echo base_url();?>public/images/header.jpg" alt="">
+				  <!-- Slider -->    
+					<div>
+					  <div class="carousel-default owl-carousel carousel-wide-arrows">
+
+						<div class="item">
+						  <div class="s-12">
+							<img style="height:100%" src="<?php echo base_url();?>public/images/banners/img1.jpg" alt="">
+						  </div>
+						</div>
+				
+						<div class="item">
+						  <div class="s-12 m-12 l-12">
+							<img style="height:100%" src="<?php echo base_url();?>public/images/banners/img2.jpg" alt="">
+						  </div>
+						</div>
+
+						<div class="item">
+						  <div class="s-12">
+							<img style="height:100%" src="<?php echo base_url();?>public/images/banners/img3.jpg" alt="">
+						  </div>
+						</div>
+						<div class="item">
+						  <div class="s-12">
+							<img style="height:100%" src="<?php echo base_url();?>public/images/banners/img4.jpg" alt="">
+						  </div>
+						</div>
+					  </div>
+					</div>
               <div class="carousel-content">
                 <div class="content-center-vertical line">
                   <div class="margin-top-bottom-80">
@@ -29,38 +56,11 @@
           </div>              
         </div>               
       </header>
-      
-      <!-- Slider -->    
-      <section class="section background-white text-center">
-        <div class="line">
-          <div class="carousel-default owl-carousel carousel-wide-arrows">
-
-            <div class="item">
-              <div class="s-12 m-12 l-12 center text-center">
-                <img style="height:75%" src="<?php echo base_url();?>public/images/God_by_TheMWord.jpg" alt="">
-              </div>
-            </div>
-    
-            <div class="item">
-              <div class="s-12 m-12 l-12 center text-center">
-                <img style="height:75%" src="<?php echo base_url();?>public/images/igSTuLz.jpg" alt="">
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="s-12 m-12 l-12 center text-center">
-                <img style="height:75%" src="<?php echo base_url();?>public/images/quotes-god_00254107.jpg" alt="">
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
 
       <!-- Section 0 -->
       <section class="section-small-padding background-white text-center"> 
         <div class="line">
-          <h2 class="text-size-50 text-center">Testimonials</h2>
+          <h2 class="text-size-50 text-center">Testimonies</h2>
           <hr class="break-small background-primary break-center">
         </div>
         <div class="line">
@@ -240,282 +240,109 @@
         <hr class="break-small background-primary break-center"> 
         <div class="tabs background-primary-hightlight">
             <div class="tab-item tab-active">
-              <a class="tab-label active-btn">Children Outreach</a>
+              <a class="tab-label active-btn">Outreach</a>
               <div class="tab-content lightbox-gallery">
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/IMG_2085.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/IMG_2085.jpg" alt="" title="Portfolio Image 1" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/IMG_2085.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/IMG_2085.jpg" alt="" title="Portfolio Image 2" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/IMG_2085.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/IMG_2085.jpg" alt="" title="Portfolio Image 3" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/IMG_2085.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/IMG_2085.jpg" alt="" title="Portfolio Image 4" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/IMG_2085.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/IMG_2085.jpg" alt="" title="Portfolio Image 5" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/IMG_2085.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/IMG_2085.jpg" alt="" title="Portfolio Image 6" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/IMG_2085.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/IMG_2085.jpg" alt="" title="Portfolio Image 7" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/IMG_2085.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/IMG_2085.jpg" alt="" title="Portfolio Image 8" />
-                  </a>	
-                </div>
+
+              <?php
+              $outreachs = glob('public/images/gallery/childrensoutreach/*.*');
+              shuffle($outreachs);
+              $o=0;
+              foreach($outreachs as $outreach) {
+                  $ext_out = pathinfo($outreach);
+                  if($o<8)
+                  {
+                    if(strtolower($ext_out['extension'])=='jpg' || strtolower($ext_out['extension'])=='png' || strtolower($ext_out['extension'])=='tif' || strtolower($ext_out['extension'])=='gif')
+                    {
+              ?>
+                      <div class="s-12 m-6 l-3">
+                        <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url().$outreach;?>">
+                          <div class="image-hover-overlay background-primary"> 
+                            <div class="image-hover-overlay-content text-center padding-2x">
+                              <!-- <h2 class="text-thin">Lorem Ipsum Dolor</h2>  -->
+                              <p><?php echo $ext_out['basename']; ?></p> 
+                            </div> 
+                          </div> 
+                          <img src="<?php echo base_url().$outreach;?>" alt="" title="<?php echo $outreach; ?>" />
+                        </a>  
+                      </div>
+              <?php
+                      $o++;
+                    }
+                  }
+              }
+              ?>
+
               </div>  
             </div>
             <div class="tab-item">
-              <a class="tab-label">180 Jam Concert</a>
+              <a class="tab-label">Music Scene</a>
               <div class="tab-content lightbox-gallery">
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/maxresdefault.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/maxresdefault.jpg" alt="" title="Portfolio Image 1" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/hqdefault.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/hqdefault.jpg" alt="" title="Portfolio Image 2" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/maxresdefault.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/maxresdefault.jpg" alt="" title="Portfolio Image 3" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/hqdefault.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/hqdefault.jpg" alt="" title="Portfolio Image 4" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/hqdefault.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/hqdefault.jpg" alt="" title="Portfolio Image 5" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/maxresdefault.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/maxresdefault.jpg" alt="" title="Portfolio Image 6" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/hqdefault.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/hqdefault.jpg" alt="" title="Portfolio Image 7" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/maxresdefault.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/maxresdefault.jpg" alt="" title="Portfolio Image 8" />
-                  </a>	
-                </div>
+
+              <?php
+              $jamconcerts = glob('public/images/gallery/180jam/*.*');
+              shuffle($jamconcerts);
+              $j=0;
+              foreach($jamconcerts as $jamconcert) {
+                  $ext_conc = pathinfo($jamconcert);
+                  if($j<8)
+                  {
+                    if(strtolower($ext_conc['extension'])=='jpg' || strtolower($ext_conc['extension'])=='png' || strtolower($ext_conc['extension'])=='tif' || strtolower($ext_conc['extension'])=='gif')
+                    {
+              ?>
+                      <div class="s-12 m-6 l-3">
+                        <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url().$jamconcert; ?>">
+                          <div class="image-hover-overlay background-primary"> 
+                            <div class="image-hover-overlay-content text-center padding-2x">
+                              <!-- <h2 class="text-thin">Lorem Ipsum Dolor</h2>  -->
+                              <p><?php echo $ext_conc['basename']; ?></p> 
+                            </div> 
+                          </div> 
+                          <img src="<?php echo base_url().$jamconcert; ?>" alt="" title="<?php echo $jamconcert; ?>" />
+                        </a>  
+                      </div>
+              <?php
+                      $j++;
+                    }
+                  }
+              }
+              ?>
+
               </div>  
             </div>
             <div class="tab-item">
-              <a class="tab-label">Discipleship </a>
+              <a class="tab-label">Conferences</a>
               <div class="tab-content lightbox-gallery">
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/DSC_2195.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/DSC_2195.jpg" alt="" title="Portfolio Image 9" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/DSC_2195.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/DSC_2195.jpg" alt="" title="Portfolio Image 10" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/DSC_2202.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/DSC_2202.jpg" alt="" title="Portfolio Image 11" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/DSC_2203.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/DSC_2203.jpg" alt="" title="Portfolio Image 12" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/DSC_2205.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/DSC_2205.jpg" alt="" title="Portfolio Image 13" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/DSC_2207.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/DSC_2207.jpg" alt="" title="Portfolio Image 14" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/DSC_2207.jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/DSC_2207.jpg" alt="" title="Portfolio Image 15" />
-                  </a>	
-                </div>
-                <div class="s-12 m-6 l-3">
-                  <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url();?>public/images/hqdefault (1).jpg">
-                    <div class="image-hover-overlay background-primary"> 
-                      <div class="image-hover-overlay-content text-center padding-2x">
-                        <h2 class="text-thin">Lorem Ipsum Dolor</h2> 
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p> 
-                      </div> 
-                    </div> 
-                    <img src="<?php echo base_url();?>public/images/hqdefault (1).jpg" alt="" title="Portfolio Image 16" />
-                  </a>	
-                </div>
+
+              <?php
+              $conferences = glob('public/images/gallery/conferences/*.*');
+              shuffle($conferences);
+              $c=0;
+              foreach($conferences as $conference) {
+                  $ext_conf = pathinfo($conference);
+
+                  if($c<8)
+                  {
+                    if(strtolower($ext_conf['extension'])=='jpg' || strtolower($ext_conf['extension'])=='png' || strtolower($ext_conf['extension'])=='tif' || strtolower($ext_conf['extension'])=='gif')
+                    {
+              ?>
+                      <div class="s-12 m-6 l-3">
+                        <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url().$conference; ?>">
+                          <div class="image-hover-overlay background-primary"> 
+                            <div class="image-hover-overlay-content text-center padding-2x">
+                              <!-- <h2 class="text-thin">Lorem Ipsum Dolor</h2>  -->
+                              <p><?php echo $ext_conf['basename']; ?></p>  
+                            </div> 
+                          </div> 
+                          <img src="<?php echo base_url().$conference; ?>" alt="" title="<?php echo $conference; ?>" />
+                        </a>  
+                      </div>
+              <?php
+                      $c++;
+                    } 
+                  }
+              }
+              ?>
+
               </div>  
             </div>
          </div>

@@ -14,14 +14,15 @@
         </header>
         <div class="section-small-padding background-white"> 
           <div class="line">  
-            <h2 class="text-size-40 margin-bottom-30">Pastor Boyet Desipida & Pastor Frank Buenaventura</h2>
+            <h2 class="text-size-40 margin-bottom-30">Mandaluyong Church Staff</h2>
             <hr class="break-small background-primary margin-bottom-30">
-
-            <img src="<?php echo base_url();?>public/photos/pastor/boyetdesipida.jpg" alt="">
-
+			<p><span class="staffname"><b>Pastor Alberto Ireneo B. Desepida</b></span><br>Head Pastor</p><br><br>
+			<p><span class="staffname"><b>Pastor Julius Caesar Q. Llamas</b></span><br>Assistant Pastor</p><br><br>
+			<p><span class="staffname"><b>Angerry F. Feliciano</b></span><br>Outreach Director</p><br><br>
+			<p><span class="staffname"><b>Gualberto M. Hernandez</b></span><br>Admin in Charge</p><br><br>
             <blockquote class="margin-top-bottom-20">
-              <h3 class="text-size-20 text-line-height-1 margin-bottom-15">Mirum est notare quam littera gothica</h3>
-              Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.
+              <h3 class="text-size-20 text-line-height-1 margin-bottom-15">The Potter's House Christian Center</h3>
+              29 Mayon Street Barangay Malamig, Mandaluyong City
             </blockquote>
               
           </div>

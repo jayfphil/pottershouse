@@ -15,6 +15,13 @@ $churchname = array(
 	'value'    => set_value('churchname')
 );
 
+$googleapimap = array(
+	'name'	   => 'googleapimap',
+	'id'	   => 'googleapimap',
+	'style'    => 'padding: 6px; width:280px;',
+	'value'    => set_value('googleapimap')
+);
+
 $schedule = array(
 	'name'	   => 'schedule',
 	'id'	   => 'schedule',
@@ -112,7 +119,6 @@ $schedule = array(
             <span class="markcolor"><?php echo ucwords(form_error('churchname')); ?></span>
            </td>
 		</tr>
-		
 
 		<tr>
 			<th valign="top"><?php echo "Select Pastor"; ?><span class="markcolor">*</span></th>
@@ -233,6 +239,14 @@ $schedule = array(
            </td>
 		</tr>
 		
+		<tr>
+			<th valign="top"><?php echo "Church Google Map"; ?></th>
+			<td><?php echo form_input($googleapimap); ?></td>
+			<td>
+            <span class="markcolor"><?php echo ucwords(form_error('googleapimap')); ?></span>
+           </td>
+		</tr>
+
         <tr>
             <th>&nbsp;</th>
             <td valign="top">

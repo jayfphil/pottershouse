@@ -112,6 +112,7 @@ class Churchdir extends BaseController
 			
 				$churchesData = array(
 					'church_Name'        =>  $this->input->post('churchname'),
+					'googleMapLocation'        =>  $this->input->post('googleapimap'),
 					'schedule'        =>  $this->input->post('schedule'),
 					'address'        =>  $this->input->post('address'),
 					'region_Id'        =>  $this->input->post('region_id'),
@@ -223,6 +224,7 @@ class Churchdir extends BaseController
 				
 				$churchesData = array(
 					'church_Name'        =>  $this->input->post('churchname'),
+					'googleMapLocation'        =>  $this->input->post('googleapimap'),
 					'schedule'        =>  $this->input->post('schedule'),
 					'address'        =>  $this->input->post('address'),
 					'region_Id'        =>  $this->input->post('region_id'),

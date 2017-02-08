@@ -56,7 +56,7 @@
           $i++;  
           } } else { ?>
 
-            <h2 class="text-size-40 margin-bottom-5 text-primary">No records found!</h2>
+            <h2 class="text-size-25 margin-bottom-5 text-dark">No testimonials yet</h2>
 
       <?php
           }

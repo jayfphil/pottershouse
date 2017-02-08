@@ -23,7 +23,7 @@
                     <img src="<?php echo base_url();?>public/photos/pastor/<?php echo $thisChurch->PastorPhoto; ?>" alt="<?php echo $thisChurch->Pastor; ?>" title="<?php echo $thisChurch->Pastor; ?>" class="img-resp">
                   </div>
                   <div class="s-12 m-8 l-8">
-                    <img src="<?php echo base_url();?>public/photos/church/<?php echo $thisChurch->ChurchPhoto; ?>" alt="Church's Photo" title="Church's Photo" class="img-resp">
+                    <img src="<?php if($thisChurch->ChurchPhoto) { echo base_url();?>public/photos/church/<?php echo $thisChurch->ChurchPhoto; } else { echo base_url();?>public/photos/church/default.png <?php } ?>" alt="Church's Photo" title="Church's Photo" class="img-resp">
                   </div>
                 </div>       
 
@@ -53,10 +53,7 @@
                   <h3 class="margin-bottom-0">Church Address</h3>
                   <p>
                     <?php echo $thisChurch->address."<br />"; ?>
-                    <?php if($thisChurch->Barangay){ echo $thisChurch->Barangay; } ?>
-                    <?php if($thisChurch->City){ echo "/ ".$thisChurch->City; } ?>
-                    <?php if($thisChurch->Province){ echo "/ ".$thisChurch->Province; } ?>
-                    <?php if($thisChurch->Region){ echo "/ ".$thisChurch->Region; } ?>
+                    <?php if($thisChurch->Region){ echo $thisChurch->Region; } ?>
                   </p>               
                 </div>
                 <div class="float-left">
@@ -91,12 +88,15 @@
         </div>  
 
         <!-- Map -->
+        <?php if ($thisChurch->googleMapLocation) { ?>
         <div class="s-12 m-12 l-6 margin-m-bottom-2x">
           <div class="s-12 grayscale center">     
-            <iframe width="95%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyBXlxaHw2oFG-tXXobkZn1VwZaVXGh2Qv0&zoom=16&center=14.5875%2C121.1769" allowfullscreen></iframe>
+            
+              <iframe width="95%" height="450" frameborder="0" style="border:0" src="<?php echo $thisChurch->googleMapLocation; ?>" allowfullscreen></iframe>
+            
           </div>
         </div>
-        
+        <?php } ?>
 
       </section>
 

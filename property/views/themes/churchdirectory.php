@@ -203,8 +203,9 @@
           </div>
         </div> 
       </article>
+	  <br/><br/>
     </main>
-
+	
   </body>
 </html>
 
@@ -227,7 +228,8 @@
         paging: true,
         filtering: true,
         autoload: true,
-
+        pageSize: 10,
+        
         controller: {
         data: <?php echo json_encode($churches); ?>,
 

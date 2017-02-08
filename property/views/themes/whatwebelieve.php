@@ -15,7 +15,7 @@
         <div class="section-small-padding background-white"> 
           <div class="line">  
 
-            <h2 class="text-size-40 margin-bottom-30">Statement of Faith for The Potter's House</h2>
+            <h2 class="text-size-40 margin-bottom-30">Statement of Faith</h2>
             <hr>
 
             <p>
@@ -37,8 +37,8 @@
               </ul>
 
             </p> 
-
-                  
+			<br/>
+            <br/>     
           </div>
         </div> 
       </article>

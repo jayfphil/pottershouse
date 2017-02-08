@@ -11,7 +11,7 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://".$_SERVER['HTTP_HOST']."/crud/";
+$config['base_url']	= "http://".$_SERVER['HTTP_HOST']."/phcc";
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -338,3 +338,16 @@ $config['proxy_ips'] = "";
 
 /* End of file config.php */
 /* Location: ./system/application/config/config.php */
+
+/* Change Logs As for February 08, 2017 */
+// property/view/themes/main.php - Added dynamic retrieve of images on gallery
+//								- Added folder "gallery" on images
+// 								- Added condition on testimonials, events and announcement if no records to display
+// property/view/themes/testimonials.php - Changed No records found warning.
+// property/view/themes/churchdirectory.php - Added pagesize of grid to 10.
+// property/view/themes/churchdirectory_sub.php - Added google map api
+// property/models/testimonial_model.php - Added googleMapLocation field to getLastChurch query.
+// property/view/pages/admin/welcome.php - Added pastors and prayer request icon on admin welcome page.
+// property/view/pages/admin/churchdir/edit.php - Added google map api field
+// property/view/pages/admin/churchdir/entry.php - Added google map api field
+// property/controller/admin/churchdir.php - Added google map api field

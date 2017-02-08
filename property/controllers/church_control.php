@@ -6,7 +6,8 @@ class Church_control extends Controller {
 
 	 public function __construct(){
 		parent::__construct ();
-		$this->siteTitle = 'CRUD | ';
+		date_default_timezone_set('Asia/Manila');
+		$this->siteTitle = 'The Potters House Christian Center Philippines';
 		$this->load->model('testimonial_model');
 		$this->data['quicklinks']  = $this->testimonial_model->getQuicklinks();
 	 }
