@@ -14,15 +14,15 @@
         </header>
         <div class="section-small-padding background-white"> 
 
-       <?php if(!empty($admin_message)): ?> 
+       <?php if(!empty($admin_message)): ?>  
           <!--  start message-green -->
           <div id="message-green">
-          <table border="0" width="100%" height="25" cellpadding="0" cellspacing="0">
-          <tr>
-              <td class="green-left"><?php echo $admin_message; ?>.</td>
-              <td class="green-right"><a class="close-green"><img src="<?php echo base_url(); ?>public/images/table/icon_close_green.gif"   alt="" /></a></td>
-          </tr>
-          </table>
+            <table border="0" width="100%" height="25" cellpadding="0" cellspacing="0">
+            <tr>
+                <th class="green-left"><?php echo $admin_message; ?></th>
+                <th class="green-right"><a class="close-green"><img src="<?php echo base_url(); ?>public/images/table/icon_close_green.gif"   alt="" /></a></th>
+            </tr>
+            </table>
           </div>
           <!--  end message-green -->
        <?php endif; ?> 
@@ -35,11 +35,11 @@
                 <h2 class="margin-bottom-10">We are pleased to join you in praying for specific needs. <?php // echo $this->uri->uri_string(); ?></h2>
                 
                   <div class="s-12"> 
-                    <input name="subject" class="subject" placeholder="Name" title="Name" type="text" />
+                    <input name="subject" class="subject" placeholder="Name" title="Name" type="text" required/>
                     <p class="subject-error form-error">Please enter your name.</p>
                   </div>
                   <div class="s-12">
-                    <textarea name="message" class="required message" placeholder="Your prayer" rows="7"></textarea>
+                    <textarea name="message" class="required message" placeholder="Your prayer" rows="7" required></textarea>
                     <p class="message-error form-error">Please pray for:</p>
                   </div>
                   <div class="s-12">

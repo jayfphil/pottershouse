@@ -72,7 +72,7 @@ class Church_control extends Controller {
 						
 				if($this->prayerNcontact_model->savePrayerRequestInfo($prayer_requestData)){
 					// $this->data['windowTitle'] 	 	= 'Create Quicklinks';
-					$this->data['admin_message'] 	= 'Prayer Request has been created successfully!'; 
+					$this->data['admin_message'] 	= 1; 
 					// $this->data['dynamicView'] 	 	= "/church_control/prayer_request";	
 				}else{return false;}
 					 
@@ -80,7 +80,44 @@ class Church_control extends Controller {
 		      }
 		
 		// Load view
-		redirect('church_control/prayer_request');
+		redirect('church_control/prayer_request/'.$this->data['admin_message']);
+
+		exit();
+	}
+
+	public function postContact()
+	{
+		
+		if(count($_POST))
+		{
+			$val = $this->form_validation;
+			$val->set_rules('subject', 'Subject of the Message', 'trim|required|xss_clean');
+			$val->set_rules('message', 'Message Content', 'trim|required|xss_clean');
+			$val->set_rules('email', 'Your Email Address', 'trim|required|xss_clean');
+			$val->set_rules('name', 'Your Full Name', 'trim|required|xss_clean');
+
+			if($val->run())
+			{
+			
+				$to = "jayfphil@gmail.com";
+				$subject = $this->input->post('subject');
+				$content = $this->input->post('message');
+				$headers = "From:".$this->input->post('name')."<br />".$this->input->post('email')."\r\n";
+
+				if(mail($to,$subject,$content,$headers)){
+					// $this->data['windowTitle'] 	 	= 'Create Quicklinks';
+					$this->data['admin_message'] 	= 1; 
+					// $this->data['dynamicView'] 	 	= "/church_control/prayer_request";	
+				}else{
+					$this->data['admin_message'] 	= 2; 
+					//	return false;
+				}
+					 
+			}	
+		}
+		
+		// Load view
+		redirect('church_control/contacts/'.$this->data['admin_message']);
 
 		exit();
 	}
@@ -117,8 +154,10 @@ class Church_control extends Controller {
 		$this->load->view('templates/footer',$this->data);
 	}
 
-	public function prayer_request()
+	public function prayer_request($msg = Null)
 	{
+		if($msg)
+		{ $this->data['admin_message'] = "Prayer Request has been submit successfully!"; }
 		$this->load->view('templates/header',$this->data);
 		$this->load->view('themes/prayer_request',$this->data);
 		$this->load->view('templates/footer',$this->data);
@@ -138,8 +177,12 @@ class Church_control extends Controller {
 		$this->load->view('templates/footer',$this->data);
 	}
 
-	public function contacts()
-	{
+	public function contacts($msg = Null)
+	{			
+		if($msg==2)
+		{ $this->data['admin_message'] = print_r(error_get_last()); } 
+		elseif($msg)
+		{ $this->data['admin_message'] = "Request has been send successfully!"; }
 		$this->load->view('templates/header',$this->data);
 		$this->load->view('themes/contacts',$this->data);
 		$this->load->view('templates/footer',$this->data);

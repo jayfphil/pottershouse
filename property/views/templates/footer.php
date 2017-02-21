@@ -55,7 +55,7 @@
 
       <!-- End of Extra Footer details -->
 
-         <div id="sidebar">
+         <div id="sidelink">
           <ul type="1">
               <li> 
                 <p><a class="ql_expand" href="#" title="TEST"><strong>Quicklinks</strong></a></p>

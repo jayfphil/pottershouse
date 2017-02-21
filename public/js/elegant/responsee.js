@@ -8,28 +8,19 @@ jQuery(document).ready(function($) {
 
 var dialogWindow = $( "#dialog-form" ).dialog({
         height: 200,
-        width: 400,
+        width: '80%',
         modal: true,
         autoOpen: false,
         dialogClass: 'fixed-dialog'
       });
 
     $(".ql_expand").click(function() { 
-
-      // if($("#sidebar li:visible").length > 1) {
-      //   $('#sidebar li:not(:first-child)').slideUp("slow");
-      //   // $("#sidebar").attr('style','top:auto');
-      //   $("#sidebar").attr('style','width:auto');
-      // } else {
-      //   $('#sidebar li').slideDown("slow");
-      //   // $("#sidebar").attr('style','top:50%');
-      //   $("#sidebar").width($('#sidebar').width());
-      // }
-
       dialogWindow.dialog( "open" );
+    });
 
-      // dialog_Quicklinks.parent().css('position', 'fixed');
-
+    // Added as of 02/16/2017 - Duplicated from admin
+    $(".close-green").click(function () {
+      $("#message-green").fadeOut("slow");
     });
 
   //Responsee tabs
@@ -76,7 +67,9 @@ var dialogWindow = $( "#dialog-form" ).dialog({
   //Mobile aside navigation
   $('.aside-nav-text').each(function(index, element) {
     $(element).click(function() { 
-      $('.aside-nav > ul').toggleClass('show-menu', 'slow');
+      // $('.aside-nav > ul').toggleClass('show-menu', 'slow');
+      $(".sidebar").show();
+      // $("header").removeClass("position-absolute");
     });
   });  
   //Responsee nav   
@@ -97,10 +90,27 @@ var dialogWindow = $( "#dialog-form" ).dialog({
     $('.top-nav ul ul li > ul').removeClass('show-ul', 'slow');  
     $('.top-nav ul ul li:hover > ul').toggleClass('show-ul', 'slow');   
   });
+
   //Mobile aside navigation  
+  //Update as of 02/15/2017
   $('.nav-text').click(function() { 
-    $('.top-nav > ul').toggleClass('show-menu', 'slow');
+    // $('.top-nav > ul').toggleClass('show-menu', 'slow');
+    $(".sidebar").show();
+      // backdrop background under progress
+      // var bd = $('<div class="ui-widget-overlay" style="width: 1583px; height: 3869px; z-index: 1001;"></div>');
+      // bd.appendTo(document.body);
+      // setTimeout(function() {
+      //   bd.remove();
+      // }, 2000);
+
   }); 
+  
+  $('.nav-close').click(function() { 
+    // $('.top-nav > ul').toggleClass('show-menu', 'slow');
+    // $("header").addClass("position-absolute");
+    $(".sidebar").hide();
+  }); 
+
   //Custom forms
   $(function() {
     var input = document.createElement("input");

@@ -341,8 +341,8 @@ $config['proxy_ips'] = "";
 
 /* Change Logs As for February 08, 2017 */
 // property/view/themes/main.php - Added dynamic retrieve of images on gallery
-//								- Added folder "gallery" on images
-// 								- Added condition on testimonials, events and announcement if no records to display
+//								 - Added folder "gallery" on images
+// 								 - Added condition on testimonials, events and announcement if no records to display
 // property/view/themes/testimonials.php - Changed No records found warning.
 // property/view/themes/churchdirectory.php - Added pagesize of grid to 10.
 // property/view/themes/churchdirectory_sub.php - Added google map api
@@ -351,3 +351,17 @@ $config['proxy_ips'] = "";
 // property/view/pages/admin/churchdir/edit.php - Added google map api field
 // property/view/pages/admin/churchdir/entry.php - Added google map api field
 // property/controller/admin/churchdir.php - Added google map api field
+
+/* Change Logs As for February 15, 2017 */
+// property/view/templates/header.php - Added new sidebar menu for mobile screen
+// property/view/templates/footer.php - Changed sidebar class to sidelink
+// public/css/elegant/responsee.css - Changed hamburger icon position to upper left when mobile screen is detected
+// public/css/elegant/template-style.css - Added sidebar design and hovering effects
+// public/js/elegant/responsee.js - Added hide/show sliding sidebar jquery function
+
+/* Change Logs As for February 16, 2017 */
+// property/view/themes/prayer_request.php - Changed notification message and added required attribute for every fields
+// property/view/themes/contacts.php - Added form posting, required attribute and notification
+// property/controllers/church_control.php - Added new function postContact, Added condition on contacts function and Added condition on prayer_request function
+//										   - Changed condition on notification from postPrayer_request function
+// property/config/routes.php - Added new variable $route['postContact'] = 'church_control/postContact';

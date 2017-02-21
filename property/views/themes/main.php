@@ -254,17 +254,13 @@
                     if(strtolower($ext_out['extension'])=='jpg' || strtolower($ext_out['extension'])=='png' || strtolower($ext_out['extension'])=='tif' || strtolower($ext_out['extension'])=='gif')
                     {
               ?>
-                      <div class="s-12 m-6 l-3">
-                        <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url().$outreach;?>">
-                          <div class="image-hover-overlay background-primary"> 
-                            <div class="image-hover-overlay-content text-center padding-2x">
-                              <!-- <h2 class="text-thin">Lorem Ipsum Dolor</h2>  -->
-                              <p><?php echo $ext_out['basename']; ?></p> 
-                            </div> 
-                          </div> 
-                          <img src="<?php echo base_url().$outreach;?>" alt="" title="<?php echo $outreach; ?>" />
-                        </a>  
-                      </div>
+
+                    <div class="s-12 m-6 l-3">
+                      <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url().$outreach;?>">
+                        <img src="<?php echo base_url().$outreach;?>" alt="" title="Click to view" />
+                      </a>  
+                    </div>
+
               <?php
                       $o++;
                     }
@@ -289,17 +285,13 @@
                     if(strtolower($ext_conc['extension'])=='jpg' || strtolower($ext_conc['extension'])=='png' || strtolower($ext_conc['extension'])=='tif' || strtolower($ext_conc['extension'])=='gif')
                     {
               ?>
-                      <div class="s-12 m-6 l-3">
-                        <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url().$jamconcert; ?>">
-                          <div class="image-hover-overlay background-primary"> 
-                            <div class="image-hover-overlay-content text-center padding-2x">
-                              <!-- <h2 class="text-thin">Lorem Ipsum Dolor</h2>  -->
-                              <p><?php echo $ext_conc['basename']; ?></p> 
-                            </div> 
-                          </div> 
-                          <img src="<?php echo base_url().$jamconcert; ?>" alt="" title="<?php echo $jamconcert; ?>" />
-                        </a>  
-                      </div>
+
+                    <div class="s-12 m-6 l-3">
+                      <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url().$jamconcert;?>">
+                        <img src="<?php echo base_url().$jamconcert;?>" alt="" title="Click to view" />
+                      </a>  
+                    </div>
+
               <?php
                       $j++;
                     }
@@ -325,17 +317,13 @@
                     if(strtolower($ext_conf['extension'])=='jpg' || strtolower($ext_conf['extension'])=='png' || strtolower($ext_conf['extension'])=='tif' || strtolower($ext_conf['extension'])=='gif')
                     {
               ?>
-                      <div class="s-12 m-6 l-3">
-                        <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url().$conference; ?>">
-                          <div class="image-hover-overlay background-primary"> 
-                            <div class="image-hover-overlay-content text-center padding-2x">
-                              <!-- <h2 class="text-thin">Lorem Ipsum Dolor</h2>  -->
-                              <p><?php echo $ext_conf['basename']; ?></p>  
-                            </div> 
-                          </div> 
-                          <img src="<?php echo base_url().$conference; ?>" alt="" title="<?php echo $conference; ?>" />
-                        </a>  
-                      </div>
+
+                    <div class="s-12 m-6 l-3">
+                      <a class="image-with-hover-overlay image-hover-zoom" href="<?php echo base_url().$conference;?>">
+                        <img src="<?php echo base_url().$conference;?>" alt="" title="Click to view" />
+                      </a>  
+                    </div>
+
               <?php
                       $c++;
                     } 

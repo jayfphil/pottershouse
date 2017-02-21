@@ -37,9 +37,9 @@
 $active_group = "default";
 $active_record = TRUE;
 
-$db['default']['hostname'] = "localhost";//mysql6.wsiph2.com
-$db['default']['username'] = "root";//potters_admin
-$db['default']['password'] = ""; //p0tt3rs1991
+$db['default']['hostname'] = "localhost"; // mysql6.wsiph2.com
+$db['default']['username'] = "root"; // potters_admin
+$db['default']['password'] = ""; // p0tt3rs1991
 $db['default']['database'] = "potters_db";
 $db['default']['dbdriver'] = "mysql";
 $db['default']['dbprefix'] = "";

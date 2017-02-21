@@ -179,6 +179,9 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   color:#fff;
 } 
 @media screen and (min-width:769px) {
+  .sidebar {
+    display:none !important;
+  }
   .aside-nav .count-number {
 	  margin-left:-1.25rem;	
 	  float:right;	
@@ -331,6 +334,12 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
 .right {float:right;}
 .left {float:left;}  
 @media screen and (max-width:768px) {
+  .top-nav, #sidelink {
+    display:none;
+  }
+  nav {
+    padding: 0 !important;
+  }
   .size-960,.size-1140,.size-1280 {max-width:768px;}
   .hide-l,.hide-s {display:block;}
   .hide-m {display:none;}
@@ -463,6 +472,12 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   .m-12 {width:100%}
 }
 @media screen and (max-width:480px) {
+  .top-nav, #sidelink {
+    display:none;
+  }
+  nav {
+    padding: 0 !important;
+  }
   .size-960,.size-1140,.size-1280 {max-width:480px;}
   .aside-nav li a {text-align: center;}
   .minimize-on-small .aside-nav-text {
